@@ -1,0 +1,75 @@
+These are the most FAQ concerning the Singular Letterplace DVec
+Project. (Well, since no one had a question yet, I had to ask
+them myself.) It is mostly supposed to be a reference for myself.
+
+
+0.) Who is responsible?
+1.) HOWTO get the Singular Letterplace DVec implementation?
+2.) Which is the correct branch?
+3.) What about the other branches?
+4.) HOWTO compile? 
+5.) I want to test it!
+6.) Where can I find code examples for GB Calculation?
+7.) How to automatically test (e.g. for debugging)?
+8.) HOWTO update the LpDVopt submodule?
+9.) Where do I find additional Info about Submodules?
+
+
+0.) Who is responsible?
+    Currently Viktor Levandovskyy and Benjamin Schnitzler are in
+    charge; great thanks shall also go to Grischa Studzinski. For
+    any Questions contact Benjamin Schnitzler
+    (benjaminschnitzler@ygooglemail.com), but please be aware,
+    that the project is currently in developement, there is no
+    support (probably, but You can try...).
+
+1.) HOWTO get the Singular Letterplace DVec implementation?
+    git clone https://github.com/bschnitz/LpDVec.git
+
+2.) Which is the correct branch?
+    git checkout remotes/origin/sw.nohom.extensions -b sw.nohom.extensions
+
+3.) What about the other branches?
+    There are more thant 15 branches. They represent different
+    experiments/tests/approaches/developements concerning the
+    Implementation. Some successfull/incomplete/failed.
+    Developement is currently done mainly in sw.nohom.extensions
+    (which is the current working version) and sw.leftgb, which
+    is the developement branch for Left GB calculation. 
+
+4.) HOWTO compile?
+    Compilation steps are:
+    ./autogen.sh
+    ./configure    # if You want to be able to debug add: --enable-debug
+    make
+    (pray)
+
+5.) I want to test it!
+    I recommend You to get the additional git-submodules LpDVopt:
+    git submodule init
+    git submodule update LpDVopt
+    (now look at Question 6. and 7.)
+
+6.) Where can I find code examples for GB Calculation?
+    In LpDVopt/debug/low_memory_tests after having reproduced the
+    steps from Question 5.
+
+7.) How to automatically test (e.g. for debugging)?
+    After having reproduced the steps from Question 4 and 5:
+    cd LpDVopt/debug/
+    ./test.sh low_memory_tests
+
+8.) HOWTO update the LpDVopt submodule?
+    After having reproduced the steps from Question 5 once:
+    cd LpDVopt/debug/
+    cd LpDVopt
+    git fetch
+    git merge master origin/master
+    (so this is basically the same, as if LpDVopt was cloned
+     without being chained as submodule)
+
+9.) Where do I find additional Info about Submodules?
+    http://git-scm.com/book/en/Git-Tools-Submodules
+
+
+vim: set tw=65 :
