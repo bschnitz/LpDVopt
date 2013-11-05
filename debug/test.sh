@@ -4,8 +4,8 @@
 
 # For HELP invoke this script without arguments!
 
-# path_to_singular_executable="../../Singular/Singular"
-path_to_singular_executable="/home/ben/data/coding/box/LpDVec/Singular/Singular"
+path_to_singular_executable="../../Singular/Singular"
+# path_to_singular_executable="/home/ben/data/coding/box/LpDVec/Singular/Singular"
 
 # maximum memory usage allowed to Singular
 ulimit -v 1024000
