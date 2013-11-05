@@ -1,0 +1,18 @@
+LoadPackage("GBNP","0",false);
+SetInfoLevel(InfoGBNP,1);
+SetInfoLevel(InfoGBNPTime,1);
+F := Rationals;
+A := FreeAssociativeAlgebraWithOne(F,"h","z","y","x");
+g :=GeneratorsOfAlgebraWithOne(A);
+h := g[1];
+z := g[2];
+y := g[3];
+x := g[4];;
+weights := [1,1,1,1];
+KI_gp := [y*z*x*y-x*y*z*x,z*x*y*z-x*y*z*x,z*x*y*z-y*z*x*y,x*x-(a1+a2)*x*h+a1*a2*h*h,y*y-(a1+a2)*y*h+a1*a2*h*h,z*z-(a1+a2)*z*h+a1*a2*h*h,x*h-h*x,y*h-h*y,z*h-h*z];
+KI_np :=GP2NPList(KI_gp);
+GB :=SGrobnerTrunc(KI_np,15,weights);
+GBNP.ConfigPrint("h","z","y","x");
+PrintNPList(GB);
+Length(GB);
+quit;

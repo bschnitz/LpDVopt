@@ -1,0 +1,11 @@
+This is an disordered file with notes regarding the LpDVec Project
+
+Library File von Viktor und Grischa:
+LIB/freegb.lib
+(Was ist mit freegb_wrkcp.lib -> Grischa fragen)
+
+Aktueller funktionierender Branch: sw.nohom.extensions
+Branch Entwicklung der LinksGB:    sw.leftgb
+
+Ordner debug:
+automatisierte Tests gedacht zum Debugging

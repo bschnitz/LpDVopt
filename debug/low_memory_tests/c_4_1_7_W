@@ -1,0 +1,40 @@
+                     SINGULAR                                 /  Development
+ A Computer Algebra System for Polynomial Computations       /   version spielwiese
+                                                           0<
+ by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   
+FB Mathematik der Universitaet, D-67653 Kaiserslautern        \
+// ** executing /home/ben/data/coding/box/LpDVec/Singular/LIB/.singularrc
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/freegb.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/bfun.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/presolve.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/elim.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/poly.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/ring.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primdec.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/absfact.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/triang.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/random.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/matrix.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/general.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/inout.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/nctools.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmodapp.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/sing.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gkdim.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmod.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/control.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/homolog.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/deform.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gmssing.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/linalg.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/qhmoduli.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/rinvar.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/zeroset.lib $Id$
+// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primitiv.lib $Id$
+[3:15]2(5)s(4)s(5)s(6)sss3(8)s(9)s(12)s(16)s(18)s(21)s(27)s(30)s(37)s4(48)s(55)s(64)s(73)s(82)--s(92)s(101)s(110)s(119)s(129)s(139)s(151)-s(164)s(178)s(193)s(208)s(223)-s(237)s(252)--s(265)-s(275)----5-----------------------------------------------------------------------(200)---------------------------------------------------------------------6-------------------------------(100)------------------------------------------------7----------------------------------------------------
+(S:34)----------------------------------
+product criterion:825 chain criterion:110
+shift V criterion:3755
+x2(1)*x1(2)+4*x1(1)*x2(2)-3*x1(1)*x1(2),x2(1)*x2(2)-4*x1(1)*x3(2)+54*x1(1)*x2(2)-40*x1(1)*x1(2),x3(1)*x3(2)-9*x3(1)*x2(2)+2*x1(1)*x4(2)+x1(1)*x1(2),17*x4(1)*x2(2)-41*x1(1)*x4(2)-20*x1(1)*x3(2)+270*x1(1)*x2(2)-200*x1(1)*x1(2),17*x4(1)*x3(2)+204*x4(1)*x1(2)-153*x3(1)*x4(2)+68*x3(1)*x2(2)+697*x3(1)*x1(2)+414*x1(1)*x4(2)+260*x1(1)*x3(2)-3527*x1(1)*x2(2)+2600*x1(1)*x1(2),17*x4(1)*x4(2)-1042*x1(1)*x4(2)-602*x1(1)*x3(2)+6597*x1(1)*x2(2)-4983*x1(1)*x1(2),4*x1(1)*x3(2)*x1(3)-64*x1(1)*x1(2)*x3(3)+1044*x1(1)*x1(2)*x2(3)-735*x1(1)*x1(2)*x1(3),2*x1(1)*x3(2)*x2(3)+8*x1(1)*x2(2)*x3(3)-546*x1(1)*x1(2)*x3(3)+7071*x1(1)*x1(2)*x2(3)-5220*x1(1)*x1(2)*x1(3),306*x3(1)*x2(2)*x3(3)+68*x3(1)*x1(2)*x4(3)-11016*x3(1)*x1(2)*x3(3)+148716*x3(1)*x1(2)*x2(3)-110126*x3(1)*x1(2)*x1(3)+816*x1(1)*x4(2)*x1(3)-612*x1(1)*x3(2)*x4(3)-1088*x1(1)*x2(2)*x3(3)+3132*x1(1)*x1(2)*x4(3)+120590*x1(1)*x1(2)*x3(3)-1712846*x1(1)*x1(2)*x2(3)+1239815*x1(1)*x1(2)*x1(3),4945294458*x3(1)*x2(2)*x4(3)-11590928206*x3(1)*x1(2)*x4(3)-16154463546*x3(1)*x1(2)*x3(3)+292437150876*x3(1)*x1(2)*x2(3)-220005283238*x3(1)*x1(2)*x1(3)+1136470308*x1(1)*x4(2)*x1(3)-2875259808*x1(1)*x3(2)*x4(3)+25990312050*x1(1)*x2(2)*x4(3)-293454954050*x1(1)*x2(2)*x3(3)-37682827965*x1(1)*x1(2)*x4(3)+16792204874504*x1(1)*x1(2)*x3(3)-215661366909620*x1(1)*x1(2)*x2(3)+159500235636143*x1(1)*x1(2)*x1(3),168140011572*x3(1)*x4(2)*x1(3)-2016140964916*x3(1)*x1(2)*x4(3)-1263283387704*x3(1)*x1(2)*x3(3)+13710091274100*x3(1)*x1(2)*x2(3)-11177637711968*x3(1)*x1(2)*x1(3)-2456678073810*x1(1)*x4(2)*x1(3)-988966678500*x1(1)*x3(2)*x4(3)+13446943729218*x1(1)*x2(2)*x4(3)-136417952624228*x1(1)*x2(2)*x3(3)-849620756475*x1(1)*x1(2)*x4(3)+7763955728363828*x1(1)*x1(2)*x3(3)-99574514167841120*x1(1)*x1(2)*x2(3)+73663405211507060*x1(1)*x1(2)*x1(3),154037*x4(1)*x1(2)*x1(3)-1285965*x1(1)*x4(2)*x1(3)-839188*x1(1)*x3(2)*x4(3)+9196218*x1(1)*x2(2)*x4(3)-85464304*x1(1)*x2(2)*x3(3)-6756349*x1(1)*x1(2)*x4(3)+4878039136*x1(1)*x1(2)*x3(3)-62608070032*x1(1)*x1(2)*x2(3)+46309301943*x1(1)*x1(2)*x1(3),616148*x4(1)*x1(2)*x2(3)-3486394*x1(1)*x4(2)*x1(3)-2517564*x1(1)*x3(2)*x4(3)+27588654*x1(1)*x2(2)*x4(3)-256392912*x1(1)*x2(2)*x3(3)-20269047*x1(1)*x1(2)*x4(3)+14637016928*x1(1)*x1(2)*x3(3)-187861722636*x1(1)*x1(2)*x2(3)+138955677794*x1(1)*x1(2)*x1(3),1232296*x4(1)*x1(2)*x3(3)+8744562*x1(1)*x4(2)*x1(3)-839188*x1(1)*x3(2)*x4(3)+9196218*x1(1)*x2(2)*x4(3)-84014544*x1(1)*x2(2)*x3(3)-8548295*x1(1)*x1(2)*x4(3)+4876077696*x1(1)*x1(2)*x3(3)-62595544532*x1(1)*x1(2)*x2(3)+46300152998*x1(1)*x1(2)*x1(3),11849*x4(1)*x1(2)*x4(3)+689112*x1(1)*x2(2)*x3(3)-717869*x1(1)*x1(2)*x4(3)-39847742*x1(1)*x1(2)*x3(3)+510679730*x1(1)*x1(2)*x2(3)-377804060*x1(1)*x1(2)*x1(3),x1(1)*x1(2)*x1(3)*x1(4),x1(1)*x1(2)*x1(3)*x2(4),x1(1)*x1(2)*x1(3)*x3(4),x1(1)*x1(2)*x1(3)*x4(4),x1(1)*x1(2)*x2(3)*x3(4),x1(1)*x1(2)*x2(3)*x4(4),x1(1)*x1(2)*x3(3)*x4(4),x1(1)*x1(2)*x4(3)*x1(4),x1(1)*x2(2)*x3(3)*x1(4),x1(1)*x2(2)*x3(3)*x2(4),x1(1)*x2(2)*x3(3)*x4(4),x1(1)*x2(2)*x4(3)*x1(4),x3(1)*x1(2)*x1(3)*x1(4),x3(1)*x1(2)*x1(3)*x2(4),x3(1)*x1(2)*x1(3)*x3(4),x3(1)*x1(2)*x1(3)*x4(4),x3(1)*x1(2)*x2(3)*x3(4),x3(1)*x1(2)*x2(3)*x4(4),x3(1)*x1(2)*x3(3)*x4(4),x3(1)*x1(2)*x4(3)*x1(4)
+
+$Bye.
