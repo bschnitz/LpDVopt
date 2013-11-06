@@ -1,0 +1,13 @@
+# Git Cheat Sheet by Bo
+
+# find files, searching in all branches
+# Example to find all files containing 'SD'
+git log --all --name-only --pretty=format: | sort -u | grep .*SD.*
+
+# graphical tool to inspect commits and branches
+gitk
+
+# push new branch: git push  <REMOTENAME> <BRANCHNAME>
+git push origin newbranch
+
+# vim: set ft=sh :
