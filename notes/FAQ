@@ -27,15 +27,15 @@ them myself.) It is mostly supposed to be a reference for myself.
     git clone https://github.com/bschnitz/LpDVec.git
 
 2.) Which is the correct branch?
-    git checkout remotes/origin/lpdv.stable -b lpdv.stable
+    git checkout remotes/origin/sw.nohom.leftgb -b sw.nohom.leftgb
 
 3.) What about the other branches?
     There are more than 15 branches. They represent different
     experiments/tests/approaches/developements concerning the
     Implementation. Some successfull/incomplete/failed.
     Developement is currently done mainly in sw.nohom.extensions
-    and sw.leftgb, which is the developement branch for Left GB
-    calculation. 
+    and sw.nohom.leftgb, which is the developement branch for
+    Left GB calculation. 
 
 4.) HOWTO compile?
     Compilation steps are:

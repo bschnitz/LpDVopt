@@ -10,4 +10,10 @@ gitk
 # push new branch: git push  <REMOTENAME> <BRANCHNAME>
 git push origin newbranch
 
+# delete a local branch
+git branch -D lpdv.stable
+
+# delete a remote branch
+git push origin --delete branch_name
+
 # vim: set ft=sh :
