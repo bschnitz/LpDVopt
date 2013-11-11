@@ -16,5 +16,11 @@ Anpassen der Implementierung aller Letterplace ShiftDVec Funktionen
    + pLcm in ShiftDVec::enterOnePair ( HAVE_RATRING beachten, siehe original
      ShiftDVec::enterOnePair )
 
+
+Sonstiges
+
+-> Korrektur ein paar fehlerhafte Beispiele in LpDVopt/debug
+
+
 vim: set tw=80 :
 vim: set colorcolumn=+1 :
