@@ -16,4 +16,7 @@ git branch -D lpdv.stable
 # delete a remote branch
 git push origin --delete branch_name
 
+# add a file file to the last commit
+git commit --amend <filename>
+
 # vim: set ft=sh :
