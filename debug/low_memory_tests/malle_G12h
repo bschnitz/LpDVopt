@@ -1,37 +1,19 @@
-                     SINGULAR                                 /  Development
- A Computer Algebra System for Polynomial Computations       /   version spielwiese
-                                                           0<
- by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   
-FB Mathematik der Universitaet, D-67653 Kaiserslautern        \
-// ** executing /home/ben/data/coding/box/LpDVec/Singular/LIB/.singularrc
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/freegb.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/bfun.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/presolve.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/elim.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/poly.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/ring.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primdec.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/absfact.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/triang.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/random.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/matrix.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/general.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/inout.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/nctools.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmodapp.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/sing.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gkdim.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmod.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/control.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/homolog.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/deform.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gmssing.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/linalg.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/qhmoduli.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/rinvar.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/zeroset.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primitiv.lib $Id$
-   skipping text from `;` error at token `)`
-0
-
-$Bye.
+LIB "freegb.lib";
+ring r = 0,(x,y,z,h),dp;
+int d = 15;
+def R = makeLetterplaceRing(d);
+ setring(R);
+ideal I = y(1)*z(2)*x(3)*y(4)-x(1)*y(2)*z(3)*x(4),
+z(1)*x(2)*y(3)*z(4)-x(1)*y(2)*z(3)*x(4),
+z(1)*x(2)*y(3)*z(4)-y(1)*z(2)*x(3)*y(4),
+x(1)*x(2)-(a1+a2)*x(1)*h(2)+a1*a2*h(1)*h(2),
+y(1)*y(2)-(a1+a2)*y(1)*h(2)+a1*a2*h(1)*h(2),
+z(1)*z(2)-(a1+a2)*z(1)*h(2)+a1*a2*h(1)*h(2),
+x(1)*h(2)-h(1)*x(2),
+y(1)*h(2)-h(1)*y(2),
+z(1)*h(2)-h(1)*z(2);
+option(prot);
+option(redTail);
+option(redSB);
+ideal J = letplaceGBasis(I);
+print (J, "%s");$

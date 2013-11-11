@@ -1,40 +1,26 @@
-                     SINGULAR                                 /  Development
- A Computer Algebra System for Polynomial Computations       /   version spielwiese
-                                                           0<
- by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   
-FB Mathematik der Universitaet, D-67653 Kaiserslautern        \
-// ** executing /home/ben/data/coding/box/LpDVec/Singular/LIB/.singularrc
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/freegb.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/bfun.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/presolve.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/elim.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/poly.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/ring.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primdec.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/absfact.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/triang.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/random.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/matrix.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/general.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/inout.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/nctools.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmodapp.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/sing.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gkdim.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/dmod.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/control.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/homolog.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/deform.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/gmssing.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/linalg.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/qhmoduli.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/rinvar.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/zeroset.lib $Id$
-// ** loaded /home/ben/data/coding/box/LpDVec/Singular/LIB/primitiv.lib $Id$
-[3:13]3(15)s(14)s(13)s(12)s(11)s(10)ssss(11)s(12)s(13)s(14)s(15)s(16)s(17)s4(18)ss(20)s(23)s(24)ss(25)s(26)ss5s(25)s(24)s(23)s(22)ss(21)sssss(20)ss(21)s(20)sss(19)sss6s(18)s(17)s(16)-----s(10)---s(6)s(5)-s(3)---
-(S:51)---------------------------------------------------
-product criterion:256 chain criterion:7
-shift V criterion:5486
-y_4(1)*z_5(2)*x_6(3)-z_4(1)*x_5(2)*z_6(3),y_4(1)*x_5(2)*y_6(3)-z_4(1)*y_5(2)*z_6(3),x_4(1)*y_5(2)*x_6(3)-z_4(1)*x_5(2)*y_6(3),x_4(1)*x_5(2)*x_6(3)+x_4(1)*y_5(2)*z_6(3)+y_4(1)*y_5(2)*y_6(3)+z_4(1)*z_5(2)*z_6(3),y_3(1)*z_4(2)*x_5(3)-z_3(1)*x_4(2)*z_5(3),y_3(1)*x_4(2)*y_5(3)-z_3(1)*y_4(2)*z_5(3),x_3(1)*y_4(2)*x_5(3)-z_3(1)*x_4(2)*y_5(3),x_3(1)*x_4(2)*x_5(3)+x_3(1)*y_4(2)*z_5(3)+y_3(1)*y_4(2)*y_5(3)+z_3(1)*z_4(2)*z_5(3),y_2(1)*z_3(2)*x_4(3)-z_2(1)*x_3(2)*z_4(3),y_2(1)*x_3(2)*y_4(3)-z_2(1)*y_3(2)*z_4(3),x_2(1)*y_3(2)*x_4(3)-z_2(1)*x_3(2)*y_4(3),x_2(1)*x_3(2)*x_4(3)+x_2(1)*y_3(2)*z_4(3)+y_2(1)*y_3(2)*y_4(3)+z_2(1)*z_3(2)*z_4(3),y_1(1)*z_2(2)*x_3(3)-z_1(1)*x_2(2)*z_3(3),y_1(1)*x_2(2)*y_3(3)-z_1(1)*y_2(2)*z_3(3),x_1(1)*y_2(2)*x_3(3)-z_1(1)*x_2(2)*y_3(3),x_1(1)*x_2(2)*x_3(3)+x_1(1)*y_2(2)*z_3(3)+y_1(1)*y_2(2)*y_3(3)+z_1(1)*z_2(2)*z_3(3),z_3(1)*x_4(2)*z_5(3)*y_6(4)-z_3(1)*z_4(2)*x_5(3)*z_6(4),x_3(1)*z_4(2)*y_5(3)*z_6(4)-z_3(1)*x_4(2)*y_5(3)*y_6(4),x_3(1)*x_4(2)*y_5(3)*z_6(4)+x_3(1)*y_4(2)*y_5(3)*y_6(4)-x_3(1)*z_4(2)*x_5(3)*z_6(4)+x_3(1)*z_4(2)*z_5(3)*z_6(4)-y_3(1)*y_4(2)*y_5(3)*x_6(4)-z_3(1)*z_4(2)*z_5(3)*x_6(4),z_2(1)*x_3(2)*z_4(3)*y_5(4)-z_2(1)*z_3(2)*x_4(3)*z_5(4),x_2(1)*z_3(2)*y_4(3)*z_5(4)-z_2(1)*x_3(2)*y_4(3)*y_5(4),x_2(1)*x_3(2)*y_4(3)*z_5(4)+x_2(1)*y_3(2)*y_4(3)*y_5(4)-x_2(1)*z_3(2)*x_4(3)*z_5(4)+x_2(1)*z_3(2)*z_4(3)*z_5(4)-y_2(1)*y_3(2)*y_4(3)*x_5(4)-z_2(1)*z_3(2)*z_4(3)*x_5(4),z_1(1)*x_2(2)*z_3(3)*y_4(4)-z_1(1)*z_2(2)*x_3(3)*z_4(4),x_1(1)*z_2(2)*y_3(3)*z_4(4)-z_1(1)*x_2(2)*y_3(3)*y_4(4),x_1(1)*x_2(2)*y_3(3)*z_4(4)+x_1(1)*y_2(2)*y_3(3)*y_4(4)-x_1(1)*z_2(2)*x_3(3)*z_4(4)+x_1(1)*z_2(2)*z_3(3)*z_4(4)-y_1(1)*y_2(2)*y_3(3)*x_4(4)-z_1(1)*z_2(2)*z_3(3)*x_4(4),z_2(1)*z_3(2)*x_4(3)*y_5(4)*y_6(5)-z_2(1)*z_3(2)*x_4(3)*z_5(4)*z_6(5),y_2(1)*z_3(2)*z_4(3)*x_5(4)*z_6(5)-z_2(1)*x_3(2)*z_4(3)*z_5(4)*y_6(5),y_2(1)*z_3(2)*z_4(3)*x_5(4)*y_6(5)-z_2(1)*z_3(2)*x_4(3)*z_5(4)*x_6(5),y_2(1)*z_3(2)*y_4(3)*y_5(4)*y_6(5)+y_2(1)*z_3(2)*z_4(3)*z_5(4)*z_6(5)+z_2(1)*x_3(2)*z_4(3)*x_5(4)*x_6(5)+z_2(1)*z_3(2)*x_4(3)*z_5(4)*z_6(5),y_2(1)*x_3(2)*z_4(3)*x_5(4)*z_6(5)-z_2(1)*y_3(2)*z_4(3)*z_5(4)*x_6(5),x_2(1)*z_3(2)*z_4(3)*x_5(4)*z_6(5)-z_2(1)*x_3(2)*y_4(3)*y_5(4)*x_6(5),x_2(1)*y_3(2)*y_4(3)*y_5(4)*y_6(5)+x_2(1)*y_3(2)*z_4(3)*z_5(4)*z_6(5)+z_2(1)*x_3(2)*y_4(3)*y_5(4)*z_6(5)+z_2(1)*z_3(2)*z_4(3)*x_5(4)*y_6(5),x_2(1)*x_3(2)*z_4(3)*x_5(4)*z_6(5)+x_2(1)*y_3(2)*y_4(3)*y_5(4)*x_6(5)-x_2(1)*z_3(2)*x_4(3)*z_5(4)*x_6(5)+x_2(1)*z_3(2)*z_4(3)*z_5(4)*x_6(5)-y_2(1)*y_3(2)*y_4(3)*x_5(4)*x_6(5)-z_2(1)*z_3(2)*z_4(3)*x_5(4)*x_6(5),x_2(1)*x_3(2)*z_4(3)*x_5(4)*y_6(5)+x_2(1)*y_3(2)*z_4(3)*y_5(4)*x_6(5)+y_2(1)*y_3(2)*y_4(3)*y_5(4)*x_6(5)+z_2(1)*z_3(2)*z_4(3)*y_5(4)*x_6(5),x_2(1)*x_3(2)*y_4(3)*y_5(4)*y_6(5)+x_2(1)*x_3(2)*z_4(3)*z_5(4)*z_6(5)-x_2(1)*y_3(2)*z_4(3)*y_5(4)*z_6(5)-x_2(1)*z_3(2)*x_4(3)*z_5(4)*x_6(5)-y_2(1)*y_3(2)*y_4(3)*x_5(4)*x_6(5)-y_2(1)*y_3(2)*y_4(3)*y_5(4)*z_6(5)-z_2(1)*z_3(2)*z_4(3)*x_5(4)*x_6(5)-z_2(1)*z_3(2)*z_4(3)*y_5(4)*z_6(5),z_1(1)*z_2(2)*x_3(3)*y_4(4)*y_5(5)-z_1(1)*z_2(2)*x_3(3)*z_4(4)*z_5(5),y_1(1)*z_2(2)*z_3(3)*x_4(4)*z_5(5)-z_1(1)*x_2(2)*z_3(3)*z_4(4)*y_5(5),y_1(1)*z_2(2)*z_3(3)*x_4(4)*y_5(5)-z_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5),y_1(1)*z_2(2)*y_3(3)*y_4(4)*y_5(5)+y_1(1)*z_2(2)*z_3(3)*z_4(4)*z_5(5)+z_1(1)*x_2(2)*z_3(3)*x_4(4)*x_5(5)+z_1(1)*z_2(2)*x_3(3)*z_4(4)*z_5(5),y_1(1)*x_2(2)*z_3(3)*x_4(4)*z_5(5)-z_1(1)*y_2(2)*z_3(3)*z_4(4)*x_5(5),x_1(1)*z_2(2)*z_3(3)*x_4(4)*z_5(5)-z_1(1)*x_2(2)*y_3(3)*y_4(4)*x_5(5),x_1(1)*y_2(2)*y_3(3)*y_4(4)*y_5(5)+x_1(1)*y_2(2)*z_3(3)*z_4(4)*z_5(5)+z_1(1)*x_2(2)*y_3(3)*y_4(4)*z_5(5)+z_1(1)*z_2(2)*z_3(3)*x_4(4)*y_5(5),x_1(1)*x_2(2)*z_3(3)*x_4(4)*z_5(5)+x_1(1)*y_2(2)*y_3(3)*y_4(4)*x_5(5)-x_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)+x_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)-y_1(1)*y_2(2)*y_3(3)*x_4(4)*x_5(5)-z_1(1)*z_2(2)*z_3(3)*x_4(4)*x_5(5),x_1(1)*x_2(2)*z_3(3)*x_4(4)*y_5(5)+x_1(1)*y_2(2)*z_3(3)*y_4(4)*x_5(5)+y_1(1)*y_2(2)*y_3(3)*y_4(4)*x_5(5)+z_1(1)*z_2(2)*z_3(3)*y_4(4)*x_5(5),x_1(1)*x_2(2)*y_3(3)*y_4(4)*y_5(5)+x_1(1)*x_2(2)*z_3(3)*z_4(4)*z_5(5)-x_1(1)*y_2(2)*z_3(3)*y_4(4)*z_5(5)-x_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)-y_1(1)*y_2(2)*y_3(3)*x_4(4)*x_5(5)-y_1(1)*y_2(2)*y_3(3)*y_4(4)*z_5(5)-z_1(1)*z_2(2)*z_3(3)*x_4(4)*x_5(5)-z_1(1)*z_2(2)*z_3(3)*y_4(4)*z_5(5),z_1(1)*x_2(2)*z_3(3)*z_4(4)*y_5(5)*z_6(6)-z_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)*y_6(6),y_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)*z_6(6)-z_1(1)*x_2(2)*z_3(3)*z_4(4)*y_5(5)*y_6(6),y_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)*y_6(6)-z_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)*x_6(6),x_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)*z_6(6)-z_1(1)*x_2(2)*y_3(3)*z_4(4)*y_5(5)*z_6(6),x_1(1)*y_2(2)*y_3(3)*z_4(4)*y_5(5)*z_6(6)+x_1(1)*z_2(2)*x_3(3)*y_4(4)*y_5(5)*x_6(6)-x_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)*y_6(6)+x_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)*y_6(6)-y_1(1)*y_2(2)*y_3(3)*x_4(4)*x_5(5)*y_6(6)-z_1(1)*z_2(2)*z_3(3)*x_4(4)*x_5(5)*y_6(6),x_1(1)*x_2(2)*z_3(3)*z_4(4)*z_5(5)*y_6(6)+x_1(1)*y_2(2)*y_3(3)*y_4(4)*z_5(5)*z_6(6)-x_1(1)*y_2(2)*z_3(3)*y_4(4)*z_5(5)*y_6(6)-x_1(1)*z_2(2)*x_3(3)*y_4(4)*y_5(5)*z_6(6)-x_1(1)*z_2(2)*x_3(3)*z_4(4)*x_5(5)*y_6(6)-x_1(1)*z_2(2)*x_3(3)*z_4(4)*z_5(5)*z_6(6)-x_1(1)*z_2(2)*z_3(3)*z_4(4)*x_5(5)*y_6(6)+x_1(1)*z_2(2)*z_3(3)*z_4(4)*z_5(5)*z_6(6)-y_1(1)*y_2(2)*y_3(3)*x_4(4)*x_5(5)*y_6(6)-y_1(1)*y_2(2)*y_3(3)*x_4(4)*z_5(5)*z_6(6)-y_1(1)*y_2(2)*y_3(3)*y_4(4)*z_5(5)*y_6(6)-z_1(1)*z_2(2)*z_3(3)*x_4(4)*x_5(5)*y_6(6)-z_1(1)*z_2(2)*z_3(3)*x_4(4)*z_5(5)*z_6(6)-z_1(1)*z_2(2)*z_3(3)*y_4(4)*z_5(5)*y_6(6),x_1(1)*x_2(2)*z_3(3)*z_4(4)*x_5(5)*y_6(6)+x_1(1)*y_2(2)*z_3(3)*y_4(4)*x_5(5)*x_6(6)+y_1(1)*y_2(2)*y_3(3)*y_4(4)*x_5(5)*x_6(6)+z_1(1)*z_2(2)*z_3(3)*y_4(4)*x_5(5)*x_6(6)
-
-$Bye.
+LIB "freegb.lib";
+ring r = 0,(x_1,y_1,z_1,x_2,y_2,z_2,x_3,y_3,z_3,x_4,y_4,z_4,x_5,y_5,z_5,x_6,y_6,z_6),dp;
+int d = 6;
+def R = makeLetterplaceRing(d);
+ setring(R);
+ideal I = y_1(1)*x_2(2)*y_3(3)-z_1(1)*y_2(2)*z_3(3),
+x_1(1)*y_2(2)*x_3(3)-z_1(1)*x_2(2)*y_3(3),
+-y_1(1)*z_2(2)*x_3(3)+z_1(1)*x_2(2)*z_3(3),
+x_1(1)*x_2(2)*x_3(3)+x_1(1)*y_2(2)*z_3(3)+y_1(1)*y_2(2)*y_3(3)+z_1(1)*z_2(2)*z_3(3),
+y_2(1)*x_3(2)*y_4(3)-z_2(1)*y_3(2)*z_4(3),
+y_3(1)*x_4(2)*y_5(3)-z_3(1)*y_4(2)*z_5(3),
+y_4(1)*x_5(2)*y_6(3)-z_4(1)*y_5(2)*z_6(3),
+x_2(1)*y_3(2)*x_4(3)-z_2(1)*x_3(2)*y_4(3),
+x_3(1)*y_4(2)*x_5(3)-z_3(1)*x_4(2)*y_5(3),
+x_4(1)*y_5(2)*x_6(3)-z_4(1)*x_5(2)*y_6(3),
+-y_2(1)*z_3(2)*x_4(3)+z_2(1)*x_3(2)*z_4(3),
+-y_3(1)*z_4(2)*x_5(3)+z_3(1)*x_4(2)*z_5(3),
+-y_4(1)*z_5(2)*x_6(3)+z_4(1)*x_5(2)*z_6(3),
+x_2(1)*x_3(2)*x_4(3)+x_2(1)*y_3(2)*z_4(3)+y_2(1)*y_3(2)*y_4(3)+z_2(1)*z_3(2)*z_4(3),
+x_3(1)*x_4(2)*x_5(3)+x_3(1)*y_4(2)*z_5(3)+y_3(1)*y_4(2)*y_5(3)+z_3(1)*z_4(2)*z_5(3),
+x_4(1)*x_5(2)*x_6(3)+x_4(1)*y_5(2)*z_6(3)+y_4(1)*y_5(2)*y_6(3)+z_4(1)*z_5(2)*z_6(3);
+option(prot);
+option(redTail);
+option(redSB);
+ideal J = letplaceGBasis(I);
+print (J, "%s");$
