@@ -1,7 +1,10 @@
 Anpassen der Implementierung aller Letterplace ShiftDVec Funktionen
 
--> Erstellen der Dokumentaion des Source Code
+-> Erstellen der Dokumentation des Source Code
    + einfügen von geeigneten doxygen Anweisungen
+-> Anpassung an die Spielwiese Version
+   + kernel Funktionen mit den Spielwiese Funktionen und den ShiftDVec
+     Funktionen vergleichen
 -> Anpassen an die neue Art Paare zu speichern
    (Polynome werden nur noch ungeshiftet gespeichert)
 -> Bereinigung des Source Code
@@ -12,3 +15,6 @@ Anpassen der Implementierung aller Letterplace ShiftDVec Funktionen
 -> Erstellen neuer Funktionen, wo dies nötig ist:
    + pLcm in ShiftDVec::enterOnePair ( HAVE_RATRING beachten, siehe original
      ShiftDVec::enterOnePair )
+
+vim: set tw=80 :
+vim: set colorcolumn=+1 :
