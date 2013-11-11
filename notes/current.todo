@@ -1,0 +1,14 @@
+Anpassen der Implementierung aller Letterplace ShiftDVec Funktionen
+
+-> Erstellen der Dokumentaion des Source Code
+   + einfügen von geeigneten doxygen Anweisungen
+-> Anpassen an die neue Art Paare zu speichern
+   (Polynome werden nur noch ungeshiftet gespeichert)
+-> Bereinigung des Source Code
+   + Code möglichst von Präprozessoranweisungen bereinigen,
+     insebsondere diejenigen, die zum auskommentieren von Code benutzt werden;
+     für Debug-Ausgaben das neue debug System weiterentwickeln und verwenden
+   + unnötige Kommentare löschen
+-> Erstellen neuer Funktionen, wo dies nötig ist:
+   + pLcm in ShiftDVec::enterOnePair ( HAVE_RATRING beachten, siehe original
+     ShiftDVec::enterOnePair )
