@@ -1,18 +1,21 @@
-These are the most FAQ concerning the Singular Letterplace DVec
-Project. (Well, since no one had a question yet, I had to ask
-them myself.) It is mostly supposed to be a reference for myself.
+These are the most FAQ concerning the Singular Letterplace
+ShiftDVec Project. (Well, since no one had a question yet, I had
+to ask them myself.) It is mostly supposed to be a reference for
+myself.
 
 
-0.) Who is responsible?
-1.) HOWTO get the Singular Letterplace DVec implementation?
-2.) Which is the correct branch?
-3.) What about the other branches?
-4.) HOWTO compile? 
-5.) I want to test it!
-6.) Where can I find code examples for GB Calculation?
-7.) How to automatically test (e.g. for debugging)?
-8.) HOWTO update the LpDVopt submodule?
-9.) Where do I find additional Info about Submodules?
+ 0.) Who is responsible?
+ 1.) HOWTO get the Singular Letterplace DVec implementation?
+ 2.) Which is the correct branch?
+ 3.) What about the other branches?
+ 4.) HOWTO compile? 
+ 5.) I want to test it!
+ 6.) Where can I find code examples for GB Calculation?
+ 7.) How to automatically test (e.g. for debugging)?
+ 8.) HOWTO update the LpDVopt submodule?
+ 9.) Where do I find additional Info about Submodules?
+10.) Where can I find the source code documentation?
+11.) How to use the doxygen documentation for the project?
 
 
 0.) Who is responsible?
@@ -28,14 +31,19 @@ them myself.) It is mostly supposed to be a reference for myself.
 
 2.) Which is the correct branch?
     git checkout remotes/origin/sw.nohom.leftgb -b sw.nohom.leftgb
+    Currently there might be done some developement on this
+    branch. If Singular does not compile, or tests will produce
+    segfaults or wrong output, switch to commit:
+    14da17ebbc41d90736fdba93b41402ecf64be455
+    If that does not help, contact Benjamin.
+
 
 3.) What about the other branches?
     There are more than 15 branches. They represent different
     experiments/tests/approaches/developements concerning the
     Implementation. Some successfull/incomplete/failed.
-    Developement is currently done mainly in sw.nohom.extensions
-    and sw.nohom.leftgb, which is the developement branch for
-    Left GB calculation. 
+    Developement is currently done mainly in sw.nohom.devel
+    and sw.nohom.leftgb. 
 
 4.) HOWTO compile?
     Compilation steps are:
@@ -70,6 +78,22 @@ them myself.) It is mostly supposed to be a reference for myself.
 
 9.) Where do I find additional Info about Submodules?
     http://git-scm.com/book/en/Git-Tools-Submodules
+
+10.) Where can I find the source code documentation?
+     The documentation for the Letterplace ShiftDVec Project is
+     yet in developement. A sneak preview on how documentation
+     will look like can be found in the developement branch
+     sw.nohom.devel . You have to reproduce the steps from
+     Question 5. and to switch to sw.nohom.devel . Then you can
+     have a look at Question 11. .
+
+11.) How to use the doxygen documentation for the project?
+     First make sure to have doxygen installed. Then read
+     Question 10., if you haven't done that yet, then follow
+     these steps:
+     - cd LpDVopt/doc/doxygen
+     - doxygen ShiftDVec.Doxyfile
+     The documentation can now be found in html/index.html .
 
 
 vim: set tw=65 :
