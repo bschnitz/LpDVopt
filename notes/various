@@ -9,3 +9,6 @@ Branch Entwicklung der LinksGB:    sw.leftgb
 
 Ordner debug:
 automatisierte Tests gedacht zum Debugging
+
+Finding memory Leaks:
+system("mtrack", 20, "mleak");

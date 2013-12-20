@@ -1,0 +1,13 @@
+p_WTotaldegree
+libpolys/polys/monomials/p_polys.cc:530
+· Was sind das für Blöcke in den polynomen (r->order[i]) - entsprechen sie in
+  etwa den Blöcken in den Letterplace Polynomen? Sie sind aber ein bisschen
+  größer als die Anzahl der Variablen: Werden also noch mehr Informationen
+  kodiert? Ist im ersten Block die Komponente gespeichert (hat nur größe 1) und
+  der letzte Block ist ein bisschen kleiner und liegt auch eins außerhalb der
+  Gradschranken...
+· Ah: r->block0[i] und r->block1[i] geben anscheinend den ersten und letzten
+  Index in dem Block und das entspricht dann auch anscheinend wieder der Anzahl
+  der Variablen (Anzahl der Variablen des nichtkommutativen Rings).
+· Anscheinend ist p_WTotaldegree ein guter Anlaufpunkt um zu sehen, wie
+  Ordnungen berechnet werden können.
