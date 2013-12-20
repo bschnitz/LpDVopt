@@ -30,20 +30,22 @@ myself.
     git clone https://github.com/bschnitz/LpDVec.git
 
 2.) Which is the correct branch?
-    git checkout remotes/origin/sw.nohom.leftgb -b sw.nohom.leftgb
-    Currently there might be done some developement on this
-    branch. If Singular does not compile, or tests will produce
-    segfaults or wrong output, switch to commit:
-    14da17ebbc41d90736fdba93b41402ecf64be455
-    If that does not help, contact Benjamin.
+    The current stable branch:
+      git checkout remotes/origin/lpdv.stable -b lpdv.stable
+    However the current version strangely is a bit slow; Until
+    this problem is solved, a faster, working version can be
+    found at commit c88da911296cdd66ddbe23f4fb85a922c0d35ca9:
+      git checkout c88da911296cdd66ddbe23f4fb85a922c0d35ca9
+    The current developement branch:
+      git checkout remotes/origin/lpdv.devel -b lpdv.devel
 
 
 3.) What about the other branches?
     There are more than 15 branches. They represent different
     experiments/tests/approaches/developements concerning the
     Implementation. Some successfull/incomplete/failed.
-    Developement is currently done mainly in sw.nohom.devel
-    and sw.nohom.leftgb. 
+    Developement is currently done mainly in lpdv.devel
+    and possibly sw.nohom.leftgb. 
 
 4.) HOWTO compile?
     Compilation steps are:
